@@ -1,0 +1,90 @@
+https://www.youtube.com/watch?v=WBPrJSw7yQA&feature=youtu.be
+
+add typescript to your puter - assumping you have npm
+> sudo npm install -g typescript
+>tsc -v
+
+To compile:
+
+1/ tsc <file>.ts
+
+2/ to run .js, use node:
+>node<file>.js
+
+3/ from terminal:
+>tsc --watch <filename>.ts
+
+**************************************************************************************
+Variable Declrations:
+**************************************************************************************
+4/ let and const keywords are
+encouraged.
+
+JS - > global scope and function scope.  THAT IS it.
+There is no block level scope.
+IT is also not an error to redeclare the same variable
+multiple times.
+
+let and const solve these problems:
+  1. have block level scope
+  2. can't redeclare
+
+5/ Let and Const - what is the difference.
+  Const must be initialized by a value.
+  let does not need to be initially assigned.
+  Const - once it is assigned - can't be re-assigend.
+
+
+when to use one over the other?
+Whe a varialb eMUST NEVER be reassigned - use const.
+otherwise
+use let.
+
+**************************************************************************************
+Variable Types:  the essence of typescript
+**************************************************************************************
+types = Boolean, number and string. null and undefined. 
+exp:
+varaible name: type=value;
+name:string="Evie";
+
+
+why is this important? two reasons:
+1/static type checking.
+if you set name=true, you will get an error. it's ot a boolean - it's a string.
+type true is not assignmable to type string.
+
+2/ instellicence.
+if, from atome you did:
+name.
+you will see all the methods applicable to string.
+
+
+
+
+
+
+
+
+**************************************************************************************
+IDE
+**************************************************************************************
+/ put your mouse over a value in Atom and
+you can view info about it.
+
+you can do the same with errors.
+Open source programming languate from MS.
+superset of JS.
+compiles to JS.
+
+Let error prone code.
+
+
+will point out errors BEFORE run-time.
+enhanced IDE support.
+refactor code easy.
+
+
+
+
+//

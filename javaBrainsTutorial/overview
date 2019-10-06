@@ -1,0 +1,30 @@
+**** types *****
+
+var a = true; -> implicitly set to type boolean of value true.
+var a:boolean=true; -> explicitly set to type boolean and set value to true.
+var x:number;  --> explicitly set to type number. no value defined yet.
+var b: any; --> this can be any type. you can assign it to a number, then a string, then whatever. 
+var d: boolean|number|string;  --> d can be either a boolean, a number or a string.
+
+
+***** functions *******
+
+------> implictly set return type as a string
+function greet(){
+  return "good morning";
+}
+
+-----> explicitly set return type as a string
+function greet():string {
+  return "good morning";
+}
+
+function add2(a:number,b:number) --> expliclity pass two number and if not , throw an error
+
+function add2:number(a:number,b:number)-->explictly returna  number, and pass tow numbers.
+
+function add5(a=1:number,b=2:number):number  --> set defaults in case they are not passed.
+
+
+
+
